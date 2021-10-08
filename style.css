@@ -1,0 +1,15 @@
+h3 {
+    font-size:25px !important;
+}
+.btn-info:hover {
+    background-color:turquoise;
+}
+canvas {
+    animation-name:hey;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}   
+@keyframes hey {
+    from {box-shadow:1px 1px 38px turquoise;}
+    to {box-shadow:1px 1px 38px rgb(12, 161, 146);}
+}
